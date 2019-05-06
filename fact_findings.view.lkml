@@ -220,6 +220,6 @@ view: fact_findings {
 
   measure: finding_count {
     type: count
-    drill_fields: [finding_id]
+    drill_fields: [finding_id,severity]
   }
 }
